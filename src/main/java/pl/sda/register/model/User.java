@@ -43,4 +43,18 @@ public class User {
     public int hashCode() {
         return Objects.hash(username, firstName, lastName);
     }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
+
+

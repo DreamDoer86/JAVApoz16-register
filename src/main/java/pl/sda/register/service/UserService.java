@@ -21,5 +21,11 @@ public class UserService {
 
     public User findUserByUserName(String username) {
         return userRepository.findUserByUsername(username);
+
     }
+
+    public void addUser(User user) {
+        userRepository.addUser(user);
+    }
+
 }

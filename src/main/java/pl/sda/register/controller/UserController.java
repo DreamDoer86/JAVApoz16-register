@@ -38,7 +38,7 @@ public class UserController {
 
     @PostMapping("/user")
     public String addUser(@ModelAttribute User user) {
-        //TODO: task is to add user to repository
+        userService.addUser(user);
         return "redirect:/users";
     }
 }
